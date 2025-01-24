@@ -27,14 +27,15 @@ function App() {
             ✉️osimayungbo@gmail.com
           </button>
         </div>
-        <button className="text-3xl flex items-center cursor-pointer text-blue-400 hover:text-blue-500">
+        {/** <button className="text-3xl flex items-center cursor-pointer text-blue-400 hover:text-blue-500">
           Click To See My Projects!
-        </button>
+        </button>*/}
+
         <div className="flex flex-row border-2 pb-5 border-solid">
           <div className="flex flex-col items-center w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
             <br></br>
-            <p className="text-xl flex items-center mb-15">
+            <p className="text-xl flex items-center">
               Second Year<a className="text-blue-500 m-1">Direct Entry</a>
               Computer Science student at the
               <strong>
@@ -43,6 +44,7 @@ function App() {
               <img className="mt-5" src={sta} width={80}></img>
               <em>(Sep 2024 - Jun 2027)</em>
             </p>
+            <hr className="border-0.5 w-250 mb-12"></hr>
             <p className="text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
