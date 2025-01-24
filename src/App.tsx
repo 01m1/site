@@ -1,6 +1,8 @@
 import linkedin from "./assets/linkedin.svg";
 import github from "./assets/github.svg";
 import sta from "./assets/standrews.png";
+import arm from "./assets/arm.png";
+import pre from "./assets/prefessionalsltd_logo.jpeg";
 import "./App.css";
 
 function App() {
@@ -26,18 +28,52 @@ function App() {
           </button>
         </div>
         <button className="text-3xl flex items-center cursor-pointer text-blue-400 hover:text-blue-500">
-          Projects
+          Click To See My Projects!
         </button>
-        <div className="flex flex-row border-2 border-solid">
+        <div className="flex flex-row border-2 pb-5 border-solid">
           <div className="flex flex-col items-center w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
             <br></br>
-            <p className="text-xl flex items-center">
-              I'm a <a className="text-blue-500 m-2">direct entry</a> Computer
-              Science student at the
-              <a className="text-blue-500 ml-2">University of St Andrews</a>
+            <p className="text-xl flex items-center mb-15">
+              Second Year<a className="text-blue-500 m-1">Direct Entry</a>
+              Computer Science student at the
+              <strong>
+                <a className="text-blue-500 ml-1">University of St Andrews</a>
+              </strong>
               <img className="mt-5" src={sta} width={80}></img>
               <em>(Sep 2024 - Jun 2027)</em>
+            </p>
+            <p className="text-xl flex items-center">
+              Incoming Software Engineer Intern at
+              <strong>
+                <a className="text-blue-500 ml-1">Arm</a>
+              </strong>
+              <img className="mx-3" src={arm} width={80}></img>
+              <em>(Jun 2025 - Aug 2025)</em>
+            </p>
+            <p className="text-xl flex items-center mt-11">
+              Selected to attend Spring/Insight Programmes at
+              <strong>
+                <a className="text-blue-500 ml-1">SIG</a>
+              </strong>
+              ,
+              <strong>
+                <a className="text-blue-500 m-1">Bank Of America</a>
+              </strong>
+              and
+              <strong>
+                <a className="text-blue-500 m-1">Flow Traders</a>
+              </strong>
+              <em>(Mar 2025 - Apr 2025)</em>
+            </p>
+            <p className="text-xl flex items-center mt-11">
+              Ex-Software Engineer Intern at
+              <strong>
+                <a className="text-blue-500 m-1">PreFessionals</a>
+              </strong>{" "}
+              (Startup)
+              <img className="mx-3" src={pre} width={60}></img>
+              <em>(Jul 2024 - Sep 2024)</em>
             </p>
           </div>
         </div>
