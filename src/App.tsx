@@ -15,17 +15,23 @@ function App() {
             📄 See My Resume
           </button>
           <p className="text-5xl">•</p>
-          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
-            <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
-          </button>
+          <a href="https://www.linkedin.com/in/osi-mayungbo/">
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
+              <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
+            </button>
+          </a>
           <p className="text-5xl">•</p>
-          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 hover:bg-[#f2ebeb] rounded">
-            <img className="mr-2" src={github} width={40}></img> GitHub
-          </button>
+          <a href="https://github.com/01m1">
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 hover:bg-[#f2ebeb] rounded">
+              <img className="mr-2" src={github} width={40}></img> GitHub
+            </button>
+          </a>
           <p className="text-5xl">•</p>
-          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-red-200 hover:bg-red-300 py-3.5 px-4 rounded">
-            ✉️osimayungbo@gmail.com
-          </button>
+          <a href="mailto:osimayungbo@gmail.com">
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-red-200 hover:bg-red-300 py-3.5 px-4 rounded">
+              ✉️osimayungbo@gmail.com
+            </button>
+          </a>
         </div>
         {/** <button className="text-3xl flex items-center cursor-pointer text-blue-400 hover:text-blue-500">
           Click To See My Projects!
@@ -36,10 +42,23 @@ function App() {
             <h1 className="text-4xl pt-5">About Me</h1>
             <br></br>
             <p className="text-xl flex items-center">
-              Second Year<a className="text-blue-500 m-1">Direct Entry</a>
+              Second Year
+              <strong>
+                <a
+                  className="text-blue-500 m-1"
+                  href="https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/direct/"
+                >
+                  Direct Entry
+                </a>
+              </strong>
               Computer Science student at the
               <strong>
-                <a className="text-blue-500 ml-1">University of St Andrews</a>
+                <a
+                  className="text-blue-500 ml-1"
+                  href="https://www.st-andrews.ac.uk/"
+                >
+                  University of St Andrews
+                </a>
               </strong>
               <img className="mt-5" src={sta} width={80}></img>
               <em>(Sep 2024 - Jun 2027)</em>
@@ -48,7 +67,9 @@ function App() {
             <p className="text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
-                <a className="text-blue-500 ml-1">Arm</a>
+                <a className="text-blue-500 ml-1" href="https://www.arm.com/">
+                  Arm
+                </a>
               </strong>
               <img className="mx-3" src={arm} width={80}></img>
               <em>(Jun 2025 - Aug 2025)</em>
@@ -56,23 +77,40 @@ function App() {
             <p className="text-xl flex items-center mt-11">
               Selected to attend Spring/Insight Programmes at
               <strong>
-                <a className="text-blue-500 ml-1">SIG</a>
+                <a className="text-blue-500 ml-1" href="https://sig.com/">
+                  SIG
+                </a>
               </strong>
               ,
               <strong>
-                <a className="text-blue-500 m-1">Bank Of America</a>
+                <a
+                  className="text-blue-500 m-1"
+                  href="https://www.bankofamerica.com/"
+                >
+                  Bank Of America
+                </a>
               </strong>
               and
               <strong>
-                <a className="text-blue-500 m-1">Flow Traders</a>
+                <a
+                  className="text-blue-500 m-1"
+                  href="https://www.flowtraders.com/"
+                >
+                  Flow Traders
+                </a>
               </strong>
               <em>(Mar 2025 - Apr 2025)</em>
             </p>
             <p className="text-xl flex items-center mt-11">
               Ex-Software Engineer Intern at
               <strong>
-                <a className="text-blue-500 m-1">PreFessionals</a>
-              </strong>{" "}
+                <a
+                  className="text-blue-500 m-1"
+                  href="https://www.linkedin.com/company/prefessionalsltd/"
+                >
+                  PreFessionals
+                </a>
+              </strong>
               (Startup)
               <img className="mx-3" src={pre} width={60}></img>
               <em>(Jul 2024 - Sep 2024)</em>
