@@ -11,9 +11,11 @@ function App() {
       <div className="pt-20 flex flex-col items-center space-y-10">
         <h1 className="text-6xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 flex flex-row items-center">
-          <button className="text-2xl cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
-            📄 See My Resume
-          </button>
+          <a href="">
+            <button className="text-2xl cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
+              📄 See My Resume
+            </button>
+          </a>
           <p className="text-5xl">•</p>
           <a href="https://www.linkedin.com/in/osi-mayungbo/">
             <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
