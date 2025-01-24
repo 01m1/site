@@ -1,13 +1,46 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import linkedin from "./assets/linkedin.svg";
+import github from "./assets/github.svg";
+import sta from "./assets/standrews.png";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center bg-gray-100">
-        <h1 className="text-3xl font-bold text-blue-500">Osi Mayungbo</h1>
+      <div className="pt-20 flex flex-col items-center space-y-10">
+        <h1 className="text-6xl font-mono">Osi Mayungbo</h1>
+        <div className="space-x-2 flex flex-row items-center">
+          <button className="text-2xl cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
+            📄 See My Resume
+          </button>
+          <p className="text-5xl">•</p>
+          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
+            <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
+          </button>
+          <p className="text-5xl">•</p>
+          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 hover:bg-[#f2ebeb] rounded">
+            <img className="mr-2" src={github} width={40}></img> GitHub
+          </button>
+          <p className="text-5xl">•</p>
+          <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-red-200 hover:bg-red-300 py-3.5 px-4 rounded">
+            ✉️osimayungbo@gmail.com
+          </button>
+        </div>
+        <button className="text-3xl flex items-center cursor-pointer text-blue-400 hover:text-blue-500">
+          Projects
+        </button>
+        <div className="flex flex-row border-2 border-solid">
+          <div className="flex flex-col items-center w-280">
+            <h1 className="text-4xl pt-5">About Me</h1>
+            <br></br>
+            <p className="text-xl flex items-center">
+              I'm a <a className="text-blue-500 m-2">direct entry</a> Computer
+              Science student at the
+              <a className="text-blue-500 ml-2">University of St Andrews</a>
+              <img className="mt-5" src={sta} width={80}></img>
+              <em>(Sep 2024 - Jun 2027)</em>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
