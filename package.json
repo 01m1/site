@@ -2,7 +2,7 @@
   "name": "site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://01m1.github.io/site",
+  "homepage": "https://01m1.github.io/site/",
   "type": "module",
   "scripts": {
     "dev": "vite",
