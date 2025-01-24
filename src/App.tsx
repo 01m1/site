@@ -17,19 +17,19 @@ function App() {
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="https://www.linkedin.com/in/osi-mayungbo/">
+          <a href="https://www.linkedin.com/in/osi-mayungbo/" target="_blank">
             <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
               <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="https://github.com/01m1">
+          <a href="https://github.com/01m1" target="_blank">
             <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 hover:bg-[#f2ebeb] rounded">
               <img className="mr-2" src={github} width={40}></img> GitHub
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="mailto:osimayungbo@gmail.com">
+          <a href="mailto:osimayungbo@gmail.com" target="_blank">
             <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-red-200 hover:bg-red-300 py-3.5 px-4 rounded">
               ✉️osimayungbo@gmail.com
             </button>
@@ -49,6 +49,7 @@ function App() {
                 <a
                   className="text-blue-500 m-1"
                   href="https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/direct/"
+                  target="_blank"
                 >
                   Direct Entry
                 </a>
@@ -58,6 +59,7 @@ function App() {
                 <a
                   className="text-blue-500 ml-1"
                   href="https://www.st-andrews.ac.uk/"
+                  target="_blank"
                 >
                   University of St Andrews
                 </a>
@@ -69,7 +71,11 @@ function App() {
             <p className="text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
-                <a className="text-blue-500 ml-1" href="https://www.arm.com/">
+                <a
+                  className="text-blue-500 ml-1"
+                  href="https://www.arm.com/"
+                  target="_blank"
+                >
                   Arm
                 </a>
               </strong>
@@ -79,7 +85,11 @@ function App() {
             <p className="text-xl flex items-center mt-11">
               Selected to attend Spring/Insight Programmes at
               <strong>
-                <a className="text-blue-500 ml-1" href="https://sig.com/">
+                <a
+                  className="text-blue-500 ml-1"
+                  href="https://sig.com/"
+                  target="_blank"
+                >
                   SIG
                 </a>
               </strong>
@@ -88,6 +98,7 @@ function App() {
                 <a
                   className="text-blue-500 m-1"
                   href="https://www.bankofamerica.com/"
+                  target="_blank"
                 >
                   Bank Of America
                 </a>
@@ -97,6 +108,7 @@ function App() {
                 <a
                   className="text-blue-500 m-1"
                   href="https://www.flowtraders.com/"
+                  target="_blank"
                 >
                   Flow Traders
                 </a>
@@ -109,6 +121,7 @@ function App() {
                 <a
                   className="text-blue-500 m-1"
                   href="https://www.linkedin.com/company/prefessionalsltd/"
+                  target="_blank"
                 >
                   PreFessionals
                 </a>
