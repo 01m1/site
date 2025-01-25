@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <>
-      <div className="pt-5 flex flex-col items-center space-y-7">
+      <div className="pt-5 pb-5 flex flex-col items-center space-y-7">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 flex flex-row items-center">
           <a
