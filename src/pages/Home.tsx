@@ -55,7 +55,7 @@ function Home() {
           </a>
         </div>
 
-        <div className="flex flex-row border-2 pb-5 border-solid">
+        <div className="flex flex-row border-1 pb-5">
           <div className="flex flex-col items-center w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
             <p className="text-xl flex items-center">

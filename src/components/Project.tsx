@@ -14,12 +14,16 @@ export default function Project({
   technologies,
 }: ProjectProps) {
   return (
-    <div className="flex flex-col items-centerjustify-center border-2 border-solid w-80 h-80 p-4">
-      <strong>
-        <h1 className="text-center">{title}</h1>
-      </strong>
-      <img src={image} width={300} className=""></img>
-      <h1>{desc}</h1>
+    <div className="flex flex-col font-mono text-center items-center border-1 border-solid w-80 h-100 p-4">
+      <p className="font-bold">{title}</p>
+      <img src={image} width={230}></img>
+      <p className="text-blue-400 font-bold underline pt-2">
+        <a href={repo} target="_blank">
+          GitHub Repo Link
+        </a>
+      </p>
+      <p className="italic mb-2">Technologies: {technologies}</p>
+      <p>{desc}</p>
     </div>
   );
 }

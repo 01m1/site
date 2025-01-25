@@ -13,73 +13,83 @@ function Projects() {
 
   return (
     <div>
-      <button
-        className="text-2xl font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 m-4 rounded"
-        onClick={() => {
-          navigate("/site/");
-        }}
-      >
-        🡠 Go Back
-      </button>
-      <div className="pt-5 flex flex-col items-center space-y-7">
-        <div className="space-x-2 flex flex-row items-center">
+      <div className="flex flex-col items-center">
+        <div className="flex flex-row items-center">
+          <button
+            className="text-xl font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4.5 px-4 m-4 rounded"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            🡠 Go Back
+          </button>
           <a
             href="https://github.com/01m1"
             className="font-mono"
             target="_blank"
           >
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
+            <button className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
               <img className="mr-2" src={github} width={40}></img> See More
               Projects on GitHub
             </button>
           </a>
         </div>
 
-        <div className="flex flex-col border-2 pb-5 border-solid">
-          <div className="flex flex-row items-center justify-center w-300 mt-5 space-x-5">
+        <div className="flex flex-col pb-5 ">
+          <div className="flex flex-row items-center justify-center w-300  space-x-5">
             <Project
               title={"Ant Colony Simulator"}
-              desc={""}
+              desc={
+                "Simulator used to illustrate the behaviour of ants. Planning to improve the efficiency and potentially rewrite in C++!"
+              }
               image={ant}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/Ant-Colony-Simulator-With-Python"}
+              technologies={"Python (NumPy, Pygame)"}
             />
             <Project
               title={"Terminal-Based Text Editor"}
-              desc={""}
+              desc={
+                "Text editor that runs on the terminal, written in C without using any external libraries."
+              }
               image={cmd}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/Terminal-Based-Text-Editor"}
+              technologies={"C"}
             />
             <Project
               title={"Breast Cancer Patient Management System"}
-              desc={""}
+              desc={
+                "Web application designed for oncologists to manage and track patients with breast cancer."
+              }
               image={patient}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/Tech-Academia-Dotplot-Accelerator"}
+              technologies={"Python • React (JavaScript) • R"}
             />
           </div>
           <div className="flex flex-row items-center justify-center w-300 mt-5 space-x-5">
             <Project
               title={"GymLog"}
-              desc={""}
+              desc={
+                "Web application that allows users to manage workouts and track gym progress."
+              }
               image={gym}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/GymLog"}
+              technologies={"Python (Flask) • HTML • CSS"}
             />
             <Project
               title={"AudioCharm"}
-              desc={""}
+              desc={"Music player application developed using Python."}
               image={icon}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/AudioCharm"}
+              technologies={"Python (Pygame)"}
             />
             <Project
               title={"Library Management System"}
-              desc={""}
+              desc={
+                "Application that contains various features allowing users to manage a library."
+              }
               image={library}
-              repo={""}
-              technologies={""}
+              repo={"https://github.com/01m1/Library-Management-System"}
+              technologies={"Java"}
             />
           </div>
         </div>

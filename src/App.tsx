@@ -5,9 +5,9 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/site">
       <Routes>
-        <Route path="/site" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
