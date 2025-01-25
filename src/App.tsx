@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="pt-20 flex flex-col items-center space-y-10">
+      <div className="pt-5 flex flex-col items-center space-y-10">
         <h1 className="text-6xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 flex flex-row items-center">
           <a
@@ -43,8 +43,8 @@ function App() {
           Click To See My Projects!
         </button>*/}
 
-        <div className="flex flex-row border-2 pb-5 border-solid">
-          <div className="flex flex-col items-center w-280">
+        <div className="flex flex-row border-2 pb-5 border-solid mb-12">
+          <div className="flex flex-col items-center w-280 ">
             <h1 className="text-4xl pt-5">About Me</h1>
             <br></br>
             <p className="text-xl flex items-center">
