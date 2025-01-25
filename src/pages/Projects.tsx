@@ -1,5 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import github from "../assets/github.svg";
+import Project from "../components/Project";
+import library from "../assets/library.png";
+import ant from "../assets/ant.png";
+import gym from "../assets/gym.png";
+import icon from "../assets/icon.ico";
+import patient from "../assets/patient.png";
+import cmd from "../assets/cmd.png";
 
 function Projects() {
   const navigate = useNavigate();
@@ -28,8 +35,53 @@ function Projects() {
           </a>
         </div>
 
-        <div className="flex flex-row border-2 pb-5 border-solid">
-          <div className="flex flex-col items-center w-280"></div>
+        <div className="flex flex-col border-2 pb-5 border-solid">
+          <div className="flex flex-row items-center justify-center w-300 mt-5 space-x-5">
+            <Project
+              title={"Ant Colony Simulator"}
+              desc={""}
+              image={ant}
+              repo={""}
+              technologies={""}
+            />
+            <Project
+              title={"Terminal-Based Text Editor"}
+              desc={""}
+              image={cmd}
+              repo={""}
+              technologies={""}
+            />
+            <Project
+              title={"Breast Cancer Patient Management System"}
+              desc={""}
+              image={patient}
+              repo={""}
+              technologies={""}
+            />
+          </div>
+          <div className="flex flex-row items-center justify-center w-300 mt-5 space-x-5">
+            <Project
+              title={"GymLog"}
+              desc={""}
+              image={gym}
+              repo={""}
+              technologies={""}
+            />
+            <Project
+              title={"AudioCharm"}
+              desc={""}
+              image={icon}
+              repo={""}
+              technologies={""}
+            />
+            <Project
+              title={"Library Management System"}
+              desc={""}
+              image={library}
+              repo={""}
+              technologies={""}
+            />
+          </div>
         </div>
       </div>
     </div>
