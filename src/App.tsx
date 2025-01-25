@@ -134,6 +134,11 @@ function App() {
               <img className="mx-3" src={pre} width={60}></img>
               <em>(Jul 2024 - Sep 2024)</em>
             </p>
+            <hr className="border-0.5 w-250 mb-12 mt-12"></hr>
+            <h1 className="text-3xl mb-4">Programming Languages</h1>
+            <p className="text-xl">
+              Python • Java • C++ • C • SQL • JavaScript • TypeScript • HTML/CSS
+            </p>
           </div>
         </div>
       </div>
