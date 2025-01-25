@@ -148,7 +148,7 @@ function App() {
             <hr className="border-0.5 w-250 mb-4 mt-10"></hr>
             <h1 className="text-3xl mb-4">Programming Languages</h1>
             <p className="text-xl">
-              Python • Java • C++ • C • SQL • JavaScript • TypeScript • HTML/CSS
+              Python • Java • C++ • C • SQL • JavaScript • TypeScript
             </p>
           </div>
         </div>
