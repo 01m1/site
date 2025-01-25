@@ -8,6 +8,7 @@ import "../styles/index.css";
 
 function Home() {
   const navigate = useNavigate();
+
   return (
     <>
       <div className="pt-5 flex flex-col items-center space-y-7">
