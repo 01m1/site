@@ -4,3 +4,4 @@ __**TODO**__
 
 - Make more Responsive
 - Add Projects
+- Add a "What do I do" section
