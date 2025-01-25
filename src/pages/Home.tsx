@@ -3,9 +3,11 @@ import github from "../assets/github.svg";
 import sta from "../assets/standrews.png";
 import arm from "../assets/arm.png";
 import pre from "../assets/prefessionalsltd_logo.jpeg";
+import { useNavigate } from "react-router-dom";
 import "../styles/index.css";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="pt-5 flex flex-col items-center space-y-7">
@@ -149,9 +151,14 @@ function Home() {
             </p>
           </div>
         </div>
-        {/** <button className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded">
+        <button
+          className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
           See My Projects
-        </button>*/}
+        </button>
       </div>
     </>
   );
