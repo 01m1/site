@@ -8,33 +8,45 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="pt-5 flex flex-col items-center space-y-10">
-        <h1 className="text-6xl font-mono">Osi Mayungbo</h1>
+      <div className="pt-5 flex flex-col items-center space-y-7">
+        <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 flex flex-row items-center">
           <a
             href="/site/Osi_Mayungbo_Resume.pdf"
             target="_blank"
             type="application/pdf"
           >
-            <button className="text-2xl cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
+            <button className="text-2xl font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
               📄 See My Resume
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="https://www.linkedin.com/in/osi-mayungbo/" target="_blank">
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-blue-200 hover:bg-blue-300 py-3 px-4 rounded">
+          <a
+            href="https://www.linkedin.com/in/osi-mayungbo/"
+            className="font-mono"
+            target="_blank"
+          >
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
               <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="https://github.com/01m1" target="_blank">
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 hover:bg-[#f2ebeb] rounded">
+          <a
+            href="https://github.com/01m1"
+            className="font-mono"
+            target="_blank"
+          >
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
               <img className="mr-2" src={github} width={40}></img> GitHub
             </button>
           </a>
           <p className="text-5xl">•</p>
-          <a href="mailto:osimayungbo@gmail.com" target="_blank">
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-red-200 hover:bg-red-300 py-3.5 px-4 rounded">
+          <a
+            href="mailto:osimayungbo@gmail.com"
+            className="font-mono"
+            target="_blank"
+          >
+            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded">
               ✉️osimayungbo@gmail.com
             </button>
           </a>
@@ -43,10 +55,9 @@ function App() {
           Click To See My Projects!
         </button>*/}
 
-        <div className="flex flex-row border-2 pb-5 border-solid mb-12">
-          <div className="flex flex-col items-center w-280 ">
+        <div className="flex flex-row border-2 pb-5 border-solid">
+          <div className="flex flex-col items-center w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
-            <br></br>
             <p className="text-xl flex items-center">
               Second Year
               <strong>
@@ -71,7 +82,7 @@ function App() {
               <img className="mt-5" src={sta} width={80}></img>
               <em>(Sep 2024 - Jun 2027)</em>
             </p>
-            <hr className="border-0.5 w-250 mb-12"></hr>
+            <hr className="border-0.5 w-250 mb-8"></hr>
             <p className="text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
@@ -134,13 +145,16 @@ function App() {
               <img className="mx-3" src={pre} width={60}></img>
               <em>(Jul 2024 - Sep 2024)</em>
             </p>
-            <hr className="border-0.5 w-250 mb-12 mt-12"></hr>
+            <hr className="border-0.5 w-250 mb-4 mt-10"></hr>
             <h1 className="text-3xl mb-4">Programming Languages</h1>
             <p className="text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript • HTML/CSS
             </p>
           </div>
         </div>
+        <button className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded">
+          See My Projects
+        </button>
       </div>
     </>
   );
