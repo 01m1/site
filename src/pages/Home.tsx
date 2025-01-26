@@ -11,15 +11,15 @@ function Home() {
 
   return (
     <>
-      <div className="pt-5 pb-5 flex flex-col items-center space-y-7">
+      <div className="pt-5 pb-5 flex flex-col items-center space-y-7 @container">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
-        <div className="space-x-2 flex flex-row items-center">
+        <div className="space-x-2 flex @5xl:flex-row flex-col items-center">
           <a
             href="/site/Osi_Mayungbo_Resume.pdf"
             target="_blank"
             type="application/pdf"
           >
-            <button className="text-2xl font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 rounded">
+            <button className="font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-5 px-4 rounded">
               📄 See My Resume
             </button>
           </a>
@@ -29,7 +29,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
+            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
               <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
             </button>
           </a>
@@ -39,7 +39,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
+            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
               <img className="mr-2" src={github} width={40}></img> GitHub
             </button>
           </a>
@@ -49,16 +49,16 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="text-3xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded">
+            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-5 px-4 rounded">
               ✉️osimayungbo@gmail.com
             </button>
           </a>
         </div>
 
         <div className="flex flex-row border-1 pb-5">
-          <div className="flex flex-col items-center w-280">
+          <div className="flex flex-col items-center w-110 md:w-180 lg:w-210 xl:w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
-            <p className="text-xl flex items-center">
+            <p className="pl-5 text-[12px] md:text-xl flex items-center">
               Second Year
               <strong>
                 <a
@@ -82,8 +82,8 @@ function Home() {
               <img className="mt-5" src={sta} width={80}></img>
               <em>(Sep 2024 - Jun 2027)</em>
             </p>
-            <hr className="border-0.5 w-250 mb-8"></hr>
-            <p className="text-xl flex items-center">
+            <hr className="border-0.5 mb-8 w-110 md:w-180 xl:w-280"></hr>
+            <p className="pl-5 text-[12px] md:text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
                 <a
@@ -97,7 +97,7 @@ function Home() {
               <img className="mx-3" src={arm} width={80}></img>
               <em>(Jun 2025 - Aug 2025)</em>
             </p>
-            <p className="text-xl flex items-center mt-11">
+            <p className="text-[11px] pl-5 md:text-[15px] lg:text-xl items-center mt-11">
               Selected to attend Spring/Insight Programmes at
               <strong>
                 <a
@@ -130,7 +130,7 @@ function Home() {
               </strong>
               <em>(Mar 2025 - Apr 2025)</em>
             </p>
-            <p className="text-xl flex items-center mt-11">
+            <p className="pl-5 text-[12px] md:text-xl flex items-center mt-11">
               Ex-Software Engineer Intern at
               <strong>
                 <a
@@ -145,9 +145,9 @@ function Home() {
               <img className="mx-3" src={pre} width={60}></img>
               <em>(Jul 2024 - Sep 2024)</em>
             </p>
-            <hr className="border-0.5 w-250 mb-4 mt-10"></hr>
+            <hr className="border-0.5 mb-4 mt-10 w-110 md:w-180 xl:w-280"></hr>
             <h1 className="text-3xl mb-4">Programming Languages</h1>
-            <p className="text-xl">
+            <p className="pl-5 text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
             </p>
           </div>

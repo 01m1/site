@@ -35,8 +35,8 @@ function Projects() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-5 ">
-          <div className="flex flex-row items-center justify-center w-300  space-x-5">
+        <div className="flex flex-col pb-5">
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:w-300 lg:space-x-5 space-y-5 lg:space-y-0">
             <Project
               title={"Ant Colony Simulator"}
               desc={
@@ -65,7 +65,7 @@ function Projects() {
               technologies={"Python • React (JavaScript) • R"}
             />
           </div>
-          <div className="flex flex-row items-center justify-center w-300 mt-5 space-x-5">
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:w-300 mt-5 lg:space-x-5 space-y-5 lg:space-y-0">
             <Project
               title={"GymLog"}
               desc={
