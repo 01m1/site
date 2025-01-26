@@ -56,9 +56,9 @@ function Home() {
         </div>
 
         <div className="flex flex-row border-1 pb-5">
-          <div className="flex flex-col items-center w-110 md:w-180 lg:w-210 xl:w-280">
+          <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-280">
             <h1 className="text-4xl pt-5">About Me</h1>
-            <p className="pl-5 text-[12px] md:text-xl flex items-center">
+            <p className="pl-5 text-[10px] md:text-[15px] lg:text-xl flex items-center">
               Second Year
               <strong>
                 <a
@@ -79,11 +79,11 @@ function Home() {
                   University of St Andrews
                 </a>
               </strong>
-              <img className="mt-5" src={sta} width={80}></img>
+              <img className="mt-5 w-13" src={sta}></img>
               <em>(Sep 2024 - Jun 2027)</em>
             </p>
-            <hr className="border-0.5 mb-8 w-110 md:w-180 xl:w-280"></hr>
-            <p className="pl-5 text-[12px] md:text-xl flex items-center">
+            <hr className="border-0.5 mb-8 w-85 md:w-180 xl:w-280"></hr>
+            <p className="pl-5 text-[10px] md:text-[15px] lg:text-xl flex items-center">
               Incoming Software Engineer Intern at
               <strong>
                 <a
@@ -94,10 +94,10 @@ function Home() {
                   Arm
                 </a>
               </strong>
-              <img className="mx-3" src={arm} width={80}></img>
+              <img className="mx-3 w-13" src={arm}></img>
               <em>(Jun 2025 - Aug 2025)</em>
             </p>
-            <p className="text-[11px] pl-5 md:text-[15px] lg:text-xl items-center mt-11">
+            <p className="text-[10px] pl-5 md:text-[15px] lg:text-xl items-center mt-11">
               Selected to attend Spring/Insight Programmes at
               <strong>
                 <a
@@ -130,7 +130,7 @@ function Home() {
               </strong>
               <em>(Mar 2025 - Apr 2025)</em>
             </p>
-            <p className="pl-5 text-[12px] md:text-xl flex items-center mt-11">
+            <p className="pl-5 text-[10px] md:text-[15px] lg:text-xl flex items-center mt-11">
               Ex-Software Engineer Intern at
               <strong>
                 <a
@@ -142,10 +142,10 @@ function Home() {
                 </a>
               </strong>
               (Startup)
-              <img className="mx-3" src={pre} width={60}></img>
+              <img className="mx-3 w-10 w-13" src={pre}></img>
               <em>(Jul 2024 - Sep 2024)</em>
             </p>
-            <hr className="border-0.5 mb-4 mt-10 w-110 md:w-180 xl:w-280"></hr>
+            <hr className="border-0.5 mb-4 mt-10 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-3xl mb-4">Programming Languages</h1>
             <p className="pl-5 text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
@@ -153,7 +153,7 @@ function Home() {
           </div>
         </div>
         <button
-          className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
+          className="text-2xl flex font-mono items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
           onClick={() => {
             navigate("/projects");
           }}
