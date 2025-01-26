@@ -14,7 +14,7 @@ export default function Project({
   technologies,
 }: ProjectProps) {
   return (
-    <div className="flex flex-col font-mono text-center items-center border-1 border-solid w-80 h-100 p-4">
+    <div className="flex flex-col font-mono text-center items-center border-1 border-solid w-80 h-120 p-4">
       <p className="font-bold">{title}</p>
       <img src={image} width={230}></img>
       <p className="text-blue-400 font-bold underline pt-2">
