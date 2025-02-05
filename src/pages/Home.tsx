@@ -169,7 +169,7 @@ function Home() {
           </div>
         </div>
         <button
-          className="text-2xl flex font-mono items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
+          className="flex font-mono items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
           onClick={() => {
             navigate("/projects");
           }}
