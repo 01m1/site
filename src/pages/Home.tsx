@@ -23,7 +23,6 @@ function Home() {
               📄 See My Resume
             </button>
           </a>
-          <p className="text-5xl">•</p>
           <a
             href="https://www.linkedin.com/in/osi-mayungbo/"
             className="font-mono"
@@ -33,7 +32,6 @@ function Home() {
               <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
             </button>
           </a>
-          <p className="text-5xl">•</p>
           <a
             href="https://github.com/01m1"
             className="font-mono"
@@ -43,7 +41,6 @@ function Home() {
               <img className="mr-2" src={github} width={40}></img> GitHub
             </button>
           </a>
-          <p className="text-5xl">•</p>
           <a
             href="mailto:osimayungbo@gmail.com"
             className="font-mono"
