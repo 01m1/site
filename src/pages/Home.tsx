@@ -99,6 +99,16 @@ function Home() {
               <strong>
                 <a
                   className="text-blue-500 ml-1"
+                  href="https://www.citadel.com/"
+                  target="_blank"
+                >
+                  Citadel
+                </a>
+              </strong>
+              ,
+              <strong>
+                <a
+                  className="text-blue-500 ml-1"
                   href="https://sig.com/"
                   target="_blank"
                 >
