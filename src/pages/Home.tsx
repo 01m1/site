@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <>
-      <div className="pt-5 pb-5 flex flex-col items-center space-y-7 @container">
+      <div className="pt-10 pb-5 flex flex-col items-center space-y-7 @container">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 flex @5xl:flex-row gap-y-5 flex-col items-center">
           <a
@@ -163,7 +163,7 @@ function Home() {
             </p>
             <hr className="border-0.5 mb-4 mt-10 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
-            <p className="pl-5 text-[12px] md:text-xl">
+            <p className="text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
             </p>
           </div>
