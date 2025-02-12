@@ -47,7 +47,7 @@ function Home() {
             target="_blank"
           >
             <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-5 px-4 rounded">
-              ✉️osimayungbo@gmail.com
+              ✉️ osimayungbo@gmail.com
             </button>
           </a>
         </div>
