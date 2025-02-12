@@ -19,7 +19,7 @@ function Home() {
             target="_blank"
             type="application/pdf"
           >
-            <button className="font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-5 px-4 rounded">
+            <button className="font-mono cursor-pointer bg-gray-200 border-3 border-solid border-gray-500 hover:bg-gray-300 py-5 px-4 rounded">
               📄 See My Resume
             </button>
           </a>
@@ -28,7 +28,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
               <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
             </button>
           </a>
@@ -37,7 +37,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
               <img className="mr-2" src={github} width={40}></img> GitHub
             </button>
           </a>
@@ -46,7 +46,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-5 px-4 rounded">
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-5 px-4 rounded">
               ✉️ osimayungbo@gmail.com
             </button>
           </a>
@@ -168,7 +168,7 @@ function Home() {
           </div>
         </div>
         <button
-          className="flex font-mono items-center cursor-pointer border-2 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
+          className="flex font-mono items-center cursor-pointer border-3 border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
           onClick={() => {
             navigate("/projects");
           }}
