@@ -52,7 +52,7 @@ function Home() {
           </a>
         </div>
 
-        <div className="flex flex-row border-1 pb-5">
+        <div className="flex flex-row border-4 border-gray-400 rounded-md pb-5">
           <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-280">
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
@@ -81,21 +81,21 @@ function Home() {
               </div>
               <img className="w-20" src={sta}></img>
             </p>
-            <hr className="border-0.5 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
+            <hr className="border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
-              <strong className="mr-1 text-gray-500">(Jun 2025 - Aug 2025)</strong>
               <div>
-              Incoming Software Engineer Intern at
-              <strong>
-                <a
-                  className="text-blue-500 mx-1"
-                  href="https://www.arm.com/"
-                  target="_blank"
-                >
-                  Arm
-                </a>
-              </strong>
+                <strong className="mr-1 text-gray-500">(Jun 2025 - Aug 2025)</strong>
+                Incoming Software Engineer Intern at
+                <strong>
+                  <a
+                    className="text-blue-500 mx-1"
+                    href="https://www.arm.com/"
+                    target="_blank"
+                  >
+                    Arm
+                  </a>
+                </strong>
               </div>
               <img className="mx-1 w-20" src={arm}></img>
             </p>
@@ -160,7 +160,7 @@ function Home() {
               </div>    
               <img className="mx-3 w-15" src={pre}></img>
             </p>
-            <hr className="border-0.5 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
+            <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
