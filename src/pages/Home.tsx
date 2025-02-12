@@ -1,6 +1,6 @@
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
-import sta from "../assets/standrews.png";
+import sta from "../assets/university_of_st_andrews_logo.jpeg";
 import arm from "../assets/arm.png";
 import pre from "../assets/prefessionalsltd_logo.jpeg";
 import { useNavigate } from "react-router-dom";
@@ -57,6 +57,7 @@ function Home() {
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
               <div>
+              <strong className="mr-1 text-gray-500">(Sep 2024 - Jun 2027)</strong>
               Second Year
               <strong>
                 <a
@@ -78,16 +79,17 @@ function Home() {
                 </a>
               </strong>
               </div>
-              <img className="mt-2 w-13" src={sta}></img>
-              <em>(Sep 2024 - Jun 2027)</em>
+              <img className="w-20" src={sta}></img>
             </p>
-            <hr className="border-0.5 mb-8 w-85 md:w-180 xl:w-280"></hr>
+            <hr className="border-0.5 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
+            <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
+              <strong className="mr-1 text-gray-500">(Jun 2025 - Aug 2025)</strong>
               <div>
               Incoming Software Engineer Intern at
               <strong>
                 <a
-                  className="text-blue-500 ml-1"
+                  className="text-blue-500 mx-1"
                   href="https://www.arm.com/"
                   target="_blank"
                 >
@@ -95,8 +97,7 @@ function Home() {
                 </a>
               </strong>
               </div>
-              <img className="mx-3 w-13" src={arm}></img>
-              <em>(Jun 2025 - Aug 2025)</em>
+              <img className="mx-1 w-20" src={arm}></img>
             </p>
             <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-11">
               <div>
@@ -140,28 +141,26 @@ function Home() {
                   Flow Traders
                 </a>
               </strong>
-              <em>(Mar 2025 - Apr 2025)</em>
               </div>
             </p>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
               <div>
+              <strong className="mr-1 text-gray-500">(Jul 2024 - Sep 2024)</strong>
               Ex-Software Engineer Intern at
               <strong>
                 <a
-                  className="text-blue-500 m-1"
+                  className="text-blue-500 mx-1"
                   href="https://www.linkedin.com/company/prefessionalsltd/"
                   target="_blank"
                 >
                   PreFessionals
                 </a>
-              </strong>  
-              (Startup)
-              </div>
-              <img className="mx-3 w-10" src={pre}></img>
-              <em>(Jul 2024 - Sep 2024)</em>
-              
+              </strong>
+              (Startup)  
+              </div>    
+              <img className="mx-3 w-15" src={pre}></img>
             </p>
-            <hr className="border-0.5 mb-4 mt-10 w-85 md:w-180 xl:w-280"></hr>
+            <hr className="border-0.5 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
