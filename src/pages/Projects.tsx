@@ -16,7 +16,7 @@ function Projects() {
       <div className="flex flex-col items-center">
         <div className="flex flex-row items-center">
           <button
-            className="text-xl font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4.5 px-4 m-4 rounded"
+            className="font-mono cursor-pointer bg-gray-200 border-2 border-solid border-gray-500 hover:bg-gray-300 py-4 px-4 m-4 rounded"
             onClick={() => {
               navigate("/");
             }}
@@ -27,8 +27,8 @@ function Projects() {
             href="https://github.com/01m1"
             className="font-mono"
             target="_blank"
-          >
-            <button className="text-2xl flex items-center cursor-pointer border-2 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
+          > 
+            <button className="font-mono flex items-center cursor-pointer border-2 border-solid border-gray-500 py-2 px-4 bg-gray-200 hover:bg-gray-300 rounded">
               <img className="mr-2" src={github} width={40}></img> See More
               Projects on GitHub
             </button>
