@@ -52,7 +52,7 @@ function Home() {
           </a>
         </div>
 
-        <div className="flex flex-row border-4 border-gray-400 rounded-md pb-5">
+        <div className="border-4 border-gray-400 rounded-md pb-5">
           <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-280">
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
@@ -83,13 +83,10 @@ function Home() {
               </div>
               <img className="w-20" src={sta}></img>
             </p>
-            <hr className="border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
+            <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-2">
-              <div>
-                <strong className="mr-1 text-gray-500">
-                  (Jun 2025 - Aug 2025)
-                </strong>
+              <div className="flex">
                 Incoming Software Engineer Intern at
                 <strong>
                   <a
@@ -103,11 +100,11 @@ function Home() {
               </div>
               <img className="mx-1 w-20" src={arm}></img>
             </p>
-            <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-11">
+            <strong className="mr-1 text-gray-500">
+              (Jun 2025 - Aug 2025)
+            </strong>
+            <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-5">
               <div>
-                <strong className="mr-1 text-gray-500">
-                  (Mar 2025 - Apr 2025)
-                </strong>
                 Spring/Insight Programmes at
                 <strong>
                   <a
@@ -130,11 +127,11 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
+            <strong className="mr-1 text-gray-500">
+              (Mar 2025 - Apr 2025)
+            </strong>
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
-                <strong className="mr-1 text-gray-500">
-                  (Jan 2025 - Present)
-                </strong>
                 Building
                 <strong>
                   <a
@@ -147,11 +144,9 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
+            <strong className="mr-1 text-gray-500">(Jan 2025 - Present)</strong>
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-2">
               <div>
-                <strong className="mr-1 text-gray-500">
-                  (Jul 2024 - Sep 2024)
-                </strong>
                 Ex-Software Engineer Intern at
                 <strong>
                   <a
@@ -165,6 +160,9 @@ function Home() {
               </div>
               <img className="mx-1 w-15" src={pre}></img>
             </p>
+            <strong className="mr-1 text-gray-500">
+              (Jul 2024 - Sep 2024)
+            </strong>
             <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
