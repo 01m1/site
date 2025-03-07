@@ -149,6 +149,23 @@ function Home() {
               </div>
               <img className="mx-3 w-15" src={pre}></img>
             </p>
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
+              <div>
+                <strong className="mr-1 text-gray-500">
+                  (Jan 2025 - Present)
+                </strong>
+                Building
+                <strong>
+                  <a
+                    className="text-blue-500 mx-1"
+                    href="https://www.service101.com/"
+                    target="_blank"
+                  >
+                    Service101
+                  </a>
+                </strong>
+              </div>
+            </p>
             <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
