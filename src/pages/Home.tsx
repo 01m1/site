@@ -50,7 +50,7 @@ function Home() {
           </a>
         </div>
 
-        <div className="border-4 border-gray-400 rounded-md pb-5">
+        <div className="border-4 border-gray-500 rounded-md pb-5">
           <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-250">
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-[18px] flex items-center">
