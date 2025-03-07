@@ -11,15 +11,15 @@ function Home() {
 
   return (
     <>
-      <div className="pt-10 pb-5 flex flex-col items-center space-y-7 @container">
+      <div className="pt-10 pb-5 flex flex-col items-center space-y-4 @container">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
-        <div className="space-x-2 flex @5xl:flex-row gap-y-5 flex-col items-center">
+        <div className="space-x-2 flex @5xl:flex-row flex-col items-center">
           <a
             href="/site/Osi_Mayungbo_Resume.pdf"
             target="_blank"
             type="application/pdf"
           >
-            <button className="font-mono cursor-pointer bg-gray-200 border-3 border-solid border-gray-500 hover:bg-gray-300 py-5 px-4 rounded">
+            <button className="font-mono cursor-pointer bg-gray-200 border-3 border-solid border-gray-500 hover:bg-gray-300 py-3 px-4 rounded">
               📄 See My Resume
             </button>
           </a>
@@ -28,8 +28,8 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
-              <img className="mr-2" src={linkedin} width={40}></img> LinkedIn
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-2 px-4 rounded">
+              <img className="mr-2" src={linkedin} width={32}></img> LinkedIn
             </button>
           </a>
           <a
@@ -37,8 +37,8 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 py-3 px-4 bg-gray-200 hover:bg-gray-300 rounded">
-              <img className="mr-2" src={github} width={40}></img> GitHub
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 py-2 px-4 bg-gray-200 hover:bg-gray-300 rounded">
+              <img className="mr-2" src={github} width={32}></img> GitHub
             </button>
           </a>
           <a
@@ -46,7 +46,7 @@ function Home() {
             className="font-mono"
             target="_blank"
           >
-            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-5 px-4 rounded">
+            <button className="flex items-center cursor-pointer border-3 border-solid border-gray-500 bg-gray-200 hover:bg-gray-300 py-3 px-4 rounded">
               ✉️ osimayungbo@gmail.com
             </button>
           </a>
@@ -85,7 +85,7 @@ function Home() {
             </p>
             <hr className="border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-2">
               <div>
                 <strong className="mr-1 text-gray-500">
                   (Jun 2025 - Aug 2025)
@@ -133,6 +133,23 @@ function Home() {
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
               <div>
                 <strong className="mr-1 text-gray-500">
+                  (Jan 2025 - Present)
+                </strong>
+                Building
+                <strong>
+                  <a
+                    className="text-blue-500 mx-1"
+                    href="https://www.service101.com/"
+                    target="_blank"
+                  >
+                    Service101 🔧
+                  </a>
+                </strong>
+              </div>
+            </p>
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
+              <div>
+                <strong className="mr-1 text-gray-500">
                   (Jul 2024 - Sep 2024)
                 </strong>
                 Ex-Software Engineer Intern at
@@ -145,26 +162,8 @@ function Home() {
                     PreFessionals
                   </a>
                 </strong>
-                (Startup)
               </div>
-              <img className="mx-3 w-15" src={pre}></img>
-            </p>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
-              <div>
-                <strong className="mr-1 text-gray-500">
-                  (Jan 2025 - Present)
-                </strong>
-                Building
-                <strong>
-                  <a
-                    className="text-blue-500 mx-1"
-                    href="https://www.service101.com/"
-                    target="_blank"
-                  >
-                    Service101
-                  </a>
-                </strong>
-              </div>
+              <img className="mx-1 w-15" src={pre}></img>
             </p>
             <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
