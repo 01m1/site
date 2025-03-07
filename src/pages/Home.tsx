@@ -53,7 +53,7 @@ function Home() {
         <div className="border-4 border-gray-500 rounded-md pb-5">
           <div className="flex flex-col items-center w-85 md:w-180 lg:w-210">
             <h1 className="text-2xl pt-5">About Me</h1>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-[18px] flex items-center">
+            <p className="pl-4 text-[10px] md:text-[12px] lg:text-xl flex items-center">
               <div>
                 Second Year
                 <strong>
@@ -82,7 +82,7 @@ function Home() {
             <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-180 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
-              <div className="flex">
+              <div>
                 Incoming Software Engineer Intern at
                 <strong>
                   <a
