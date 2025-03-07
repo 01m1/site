@@ -85,7 +85,7 @@ function Home() {
             </p>
             <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-2">
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div className="flex">
                 Incoming Software Engineer Intern at
                 <strong>
@@ -98,7 +98,6 @@ function Home() {
                   </a>
                 </strong>
               </div>
-              <img className="mx-1 w-20" src={arm}></img>
             </p>
             <strong className="mr-1 text-gray-500">
               (Jun 2025 - Aug 2025)
@@ -145,7 +144,7 @@ function Home() {
               </div>
             </p>
             <strong className="mr-1 text-gray-500">(Jan 2025 - Present)</strong>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-2">
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
                 Ex-Software Engineer Intern at
                 <strong>
@@ -158,7 +157,6 @@ function Home() {
                   </a>
                 </strong>
               </div>
-              <img className="mx-1 w-15" src={pre}></img>
             </p>
             <strong className="mr-1 text-gray-500">
               (Jul 2024 - Sep 2024)
