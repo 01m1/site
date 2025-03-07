@@ -1,8 +1,6 @@
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import sta from "../assets/university_of_st_andrews_logo.jpeg";
-import arm from "../assets/arm.png";
-import pre from "../assets/prefessionalsltd_logo.jpeg";
 import { useNavigate } from "react-router-dom";
 import "../styles/index.css";
 
@@ -53,9 +51,9 @@ function Home() {
         </div>
 
         <div className="border-4 border-gray-400 rounded-md pb-5">
-          <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-280">
+          <div className="flex flex-col items-center w-85 md:w-180 lg:w-210 xl:w-250">
             <h1 className="text-2xl pt-5">About Me</h1>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
+            <p className="pl-5 text-[10px] md:text-[12px] lg:text-[18px] flex items-center">
               <div>
                 <strong className="mr-1 text-gray-500">
                   (Sep 2024 - Jun 2027)
@@ -83,7 +81,7 @@ function Home() {
               </div>
               <img className="w-20" src={sta}></img>
             </p>
-            <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-280 text-gray-400"></hr>
+            <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-250 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div className="flex">
@@ -161,7 +159,7 @@ function Home() {
             <strong className="mr-1 text-gray-500">
               (Jul 2024 - Sep 2024)
             </strong>
-            <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
+            <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-250"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
