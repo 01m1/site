@@ -57,27 +57,29 @@ function Home() {
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
               <div>
-              <strong className="mr-1 text-gray-500">(Sep 2024 - Jun 2027)</strong>
-              Second Year
-              <strong>
-                <a
-                  className="text-blue-500 m-1"
-                  href="https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/direct/"
-                  target="_blank"
-                >
-                  Direct Entry
-                </a>
-              </strong>
-              Computer Science student at the
-              <strong>
-                <a
-                  className="text-blue-500 ml-1"
-                  href="https://www.st-andrews.ac.uk/"
-                  target="_blank"
-                >
-                  University of St Andrews
-                </a>
-              </strong>
+                <strong className="mr-1 text-gray-500">
+                  (Sep 2024 - Jun 2027)
+                </strong>
+                Second Year
+                <strong>
+                  <a
+                    className="text-blue-500 m-1"
+                    href="https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/direct/"
+                    target="_blank"
+                  >
+                    Direct Entry
+                  </a>
+                </strong>
+                Computer Science student at the
+                <strong>
+                  <a
+                    className="text-blue-500 ml-1"
+                    href="https://www.st-andrews.ac.uk/"
+                    target="_blank"
+                  >
+                    University of St Andrews
+                  </a>
+                </strong>
               </div>
               <img className="w-20" src={sta}></img>
             </p>
@@ -85,7 +87,9 @@ function Home() {
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center">
               <div>
-                <strong className="mr-1 text-gray-500">(Jun 2025 - Aug 2025)</strong>
+                <strong className="mr-1 text-gray-500">
+                  (Jun 2025 - Aug 2025)
+                </strong>
                 Incoming Software Engineer Intern at
                 <strong>
                   <a
@@ -101,63 +105,48 @@ function Home() {
             </p>
             <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-11">
               <div>
-              Selected to attend Spring/Insight Programmes at
-              <strong>
-                <a
-                  className="text-blue-500 ml-1"
-                  href="https://www.citadel.com/"
-                  target="_blank"
-                >
-                  Citadel
-                </a>
-              </strong>
-              ,
-              <strong>
-                <a
-                  className="text-blue-500 ml-1"
-                  href="https://sig.com/"
-                  target="_blank"
-                >
-                  SIG
-                </a>
-              </strong>
-              ,
-              <strong>
-                <a
-                  className="text-blue-500 m-1"
-                  href="https://www.bankofamerica.com/"
-                  target="_blank"
-                >
-                  Bank Of America
-                </a>
-              </strong>
-              and
-              <strong>
-                <a
-                  className="text-blue-500 m-1"
-                  href="https://www.flowtraders.com/"
-                  target="_blank"
-                >
-                  Flow Traders
-                </a>
-              </strong>
+                <strong className="mr-1 text-gray-500">
+                  (Mar 2025 - Apr 2025)
+                </strong>
+                Spring/Insight Programmes at
+                <strong>
+                  <a
+                    className="text-blue-500 m-1"
+                    href="https://www.citadel.com/"
+                    target="_blank"
+                  >
+                    Citadel
+                  </a>
+                </strong>
+                and
+                <strong>
+                  <a
+                    className="text-blue-500 m-1"
+                    href="https://www.flowtraders.com/"
+                    target="_blank"
+                  >
+                    SIG
+                  </a>
+                </strong>
               </div>
             </p>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-11">
               <div>
-              <strong className="mr-1 text-gray-500">(Jul 2024 - Sep 2024)</strong>
-              Ex-Software Engineer Intern at
-              <strong>
-                <a
-                  className="text-blue-500 mx-1"
-                  href="https://www.linkedin.com/company/prefessionalsltd/"
-                  target="_blank"
-                >
-                  PreFessionals
-                </a>
-              </strong>
-              (Startup)  
-              </div>    
+                <strong className="mr-1 text-gray-500">
+                  (Jul 2024 - Sep 2024)
+                </strong>
+                Ex-Software Engineer Intern at
+                <strong>
+                  <a
+                    className="text-blue-500 mx-1"
+                    href="https://www.linkedin.com/company/prefessionalsltd/"
+                    target="_blank"
+                  >
+                    PreFessionals
+                  </a>
+                </strong>
+                (Startup)
+              </div>
               <img className="mx-3 w-15" src={pre}></img>
             </p>
             <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-280"></hr>
