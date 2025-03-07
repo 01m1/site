@@ -11,7 +11,7 @@ function Home() {
     <>
       <div className="pt-10 pb-5 flex flex-col items-center space-y-4 @container">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
-        <div className="space-x-2 flex @5xl:flex-row flex-col items-center">
+        <div className="space-x-2 gap-y-5 flex @5xl:flex-row flex-col items-center">
           <a
             href="/site/Osi_Mayungbo_Resume.pdf"
             target="_blank"
@@ -78,7 +78,9 @@ function Home() {
               </div>
               <img className="w-15" src={sta}></img>
             </p>
-            <strong className="text-gray-500">(Sep 2024 - Jun 2027)</strong>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Sep 2024 - Jun 2027)
+            </strong>
             <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-180 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
@@ -95,7 +97,9 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <strong className="text-gray-500">(Jun 2025 - Aug 2025)</strong>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Jun 2025 - Aug 2025)
+            </strong>
             <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-5">
               <div>
                 Spring/Insight Programmes at
@@ -120,7 +124,9 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <strong className="text-gray-500">(Mar 2025 - Apr 2025)</strong>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Mar 2025 - Apr 2025)
+            </strong>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
                 Building
@@ -135,7 +141,9 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <strong className="text-gray-500">(Jan 2025 - Present)</strong>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Jan 2025 - Present)
+            </strong>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
                 Ex-Software Engineer Intern at
@@ -150,7 +158,9 @@ function Home() {
                 </strong>
               </div>
             </p>
-            <strong className="text-gray-500">(Jul 2024 - Sep 2024)</strong>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Jul 2024 - Sep 2024)
+            </strong>
             <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-180"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
