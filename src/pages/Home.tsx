@@ -112,14 +112,24 @@ function Home() {
                     Citadel
                   </a>
                 </strong>
-                and
+                ,
                 <strong>
                   <a
                     className="text-blue-500 m-1"
                     href="https://www.flowtraders.com/"
                     target="_blank"
                   >
-                    SIG
+                  SIG
+                  </a>
+                </strong>
+                and
+                <strong>
+                  <a
+                    className="text-blue-500 m-1"
+                    href="https://www.mlp.com/"
+                    target="_blank"
+                  >
+                    Millennium
                   </a>
                 </strong>
               </div>
