@@ -105,24 +105,24 @@ function Home() {
                 Spring/Insight Programmes at
                 <strong>
                   <a
-                    className="text-blue-500 m-1"
+                    className="text-blue-500 ml-1"
                     href="https://www.citadel.com/"
                     target="_blank"
                   >
                     Citadel
                   </a>
                 </strong>
-                ,
+                  ,
                 <strong>
                   <a
-                    className="text-blue-500 m-1"
+                    className="text-blue-500 ml-1"
                     href="https://www.flowtraders.com/"
                     target="_blank"
                   >
                   SIG
                   </a>
                 </strong>
-                and
+                , and
                 <strong>
                   <a
                     className="text-blue-500 m-1"
