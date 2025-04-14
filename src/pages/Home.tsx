@@ -135,7 +135,7 @@ function Home() {
               </div>
             </p>
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
-              (Mar 2025 - Apr 2025)
+              (Mar 2025 - May 2025)
             </strong>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
