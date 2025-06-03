@@ -55,7 +55,6 @@ function Home() {
             <h1 className="text-2xl pt-5">About Me</h1>
             <p className="pl-4 text-[10px] md:text-[12px] lg:text-xl flex items-center">
               <div>
-                Second Year
                 <strong>
                   <a
                     className="text-blue-500 m-1"
@@ -85,7 +84,7 @@ function Home() {
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
-                Incoming Software Engineer Intern at
+                Software Engineer Intern at
                 <strong>
                   <a
                     className="text-blue-500 mx-1"
@@ -99,43 +98,6 @@ function Home() {
             </p>
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
               (Jun 2025 - Aug 2025)
-            </strong>
-            <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-5">
-              <div>
-                Spring/Insight Programmes at
-                <strong>
-                  <a
-                    className="text-blue-500 ml-1"
-                    href="https://www.citadel.com/"
-                    target="_blank"
-                  >
-                    Citadel
-                  </a>
-                </strong>
-                  ,
-                <strong>
-                  <a
-                    className="text-blue-500 ml-1"
-                    href="https://www.flowtraders.com/"
-                    target="_blank"
-                  >
-                  SIG
-                  </a>
-                </strong>
-                , and
-                <strong>
-                  <a
-                    className="text-blue-500 m-1"
-                    href="https://www.mlp.com/"
-                    target="_blank"
-                  >
-                    Millennium
-                  </a>
-                </strong>
-              </div>
-            </p>
-            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
-              (Mar 2025 - May 2025)
             </strong>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
@@ -153,6 +115,43 @@ function Home() {
             </p>
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
               (Jan 2025 - Present)
+            </strong>
+            <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-5">
+              <div>
+                Spring/Insight Programmes at
+                <strong>
+                  <a
+                    className="text-blue-500 ml-1"
+                    href="https://www.citadel.com/"
+                    target="_blank"
+                  >
+                    Citadel
+                  </a>
+                </strong>
+                ,
+                <strong>
+                  <a
+                    className="text-blue-500 ml-1"
+                    href="https://www.flowtraders.com/"
+                    target="_blank"
+                  >
+                    SIG
+                  </a>
+                </strong>
+                , and
+                <strong>
+                  <a
+                    className="text-blue-500 m-1"
+                    href="https://www.mlp.com/"
+                    target="_blank"
+                  >
+                    Millennium
+                  </a>
+                </strong>
+              </div>
+            </p>
+            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
+              (Mar 2025 - May 2025)
             </strong>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
