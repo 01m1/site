@@ -29,8 +29,7 @@ function Projects() {
             target="_blank"
           >
             <button className="font-mono flex items-center cursor-pointer border-b-3 border-gray-500 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded mr-4">
-              <img className="mr-2" src={github} width={32}></img> See More
-              Projects on GitHub
+              <img src={github} width={32}></img>
             </button>
           </a>
         </div>
