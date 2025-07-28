@@ -16,7 +16,7 @@ function Projects() {
       <div className="flex flex-col items-center">
         <div className="flex flex-row items-center">
           <button
-            className="font-mono cursor-pointer bg-gray-200 border-3 border-solid border-gray-500 hover:bg-gray-300 py-3 px-4 m-4 rounded"
+            className="font-mono cursor-pointer bg-gray-200 border-b-3 border-solid border-gray-500 hover:bg-gray-300 py-3 px-4 m-4 rounded"
             onClick={() => {
               navigate("/");
             }}
@@ -28,7 +28,7 @@ function Projects() {
             className="font-mono"
             target="_blank"
           >
-            <button className="font-mono flex items-center cursor-pointer border-3 border-gray-500 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded mr-4">
+            <button className="font-mono flex items-center cursor-pointer border-b-3 border-gray-500 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded mr-4">
               <img className="mr-2" src={github} width={32}></img> See More
               Projects on GitHub
             </button>
