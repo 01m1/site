@@ -11,7 +11,7 @@ function Home() {
     <>
       <div className="pt-10 pb-5 flex flex-col items-center space-y-4 @container">
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
-        <div className="space-x-2 gap-y-5 flex @5xl:flex-row flex-col items-center">
+        <div className="space-x-2 gap-y-5 flex @5xl:flex-row items-center">
           <a
             href="/site/Osi_Mayungbo_Resume.pdf"
             target="_blank"
