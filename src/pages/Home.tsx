@@ -13,15 +13,6 @@ function Home() {
         <h1 className="text-5xl font-mono">Osi Mayungbo</h1>
         <div className="space-x-2 gap-y-5 flex @5xl:flex-row items-center">
           <a
-            href="/site/Osi_Mayungbo_Resume.pdf"
-            target="_blank"
-            type="application/pdf"
-          >
-            <button className="font-mono cursor-pointer bg-gray-200 border-b-3 border-solid border-gray-500 hover:bg-gray-300 py-4 px-3 rounded">
-              📄 Resume
-            </button>
-          </a>
-          <a
             href="https://www.linkedin.com/in/osi-mayungbo/"
             className="font-mono"
             target="_blank"
@@ -177,14 +168,25 @@ function Home() {
             </p>
           </div>
         </div>
-        <button
-          className="flex font-mono items-center cursor-pointer border-b-3 border-gray-500 bg-gray-200 hover:bg-gray-300 py-3.5 px-4 rounded"
-          onClick={() => {
-            navigate("/projects");
-          }}
-        >
-          See My Projects
-        </button>
+        <div className="flex space-x-5">
+          <button
+            className="font-mono items-center cursor-pointer w-27 border-b-3 border-gray-500 bg-gray-200 hover:bg-gray-300 py-4 rounded"
+            onClick={() => {
+              navigate("/projects");
+            }}
+          >
+            Projects
+          </button>
+          <a
+            href="/site/Osi_Mayungbo_Resume.pdf"
+            target="_blank"
+            type="application/pdf"
+          >
+            <button className="font-mono cursor-pointer bg-gray-200 w-27 border-b-3 border-solid border-gray-500 hover:bg-gray-300 py-4 rounded">
+              Resume
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
