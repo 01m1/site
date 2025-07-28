@@ -168,7 +168,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="flex space-x-5">
+        <div className="flex space-x-2">
           <button
             className="font-mono items-center cursor-pointer w-27 border-b-3 border-gray-500 bg-gray-200 hover:bg-gray-300 py-4 rounded"
             onClick={() => {
