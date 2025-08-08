@@ -48,21 +48,21 @@ function Home() {
               <div>
                 <strong>
                   <a
-                    className="text-blue-500 m-1"
+                    className="text-blue-500"
                     href="https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/direct/"
                     target="_blank"
                   >
-                    Direct Entry
+                    Direct Entry{' '}
                   </a>
                 </strong>
                 Computer Science student at the
                 <strong>
                   <a
-                    className="text-blue-500 ml-1"
+                    className="text-blue-500"
                     href="https://www.st-andrews.ac.uk/"
                     target="_blank"
                   >
-                    University of St Andrews
+                    {' '}University of St Andrews{' '}
                   </a>
                 </strong>
               </div>
@@ -78,11 +78,11 @@ function Home() {
                 Software Engineer Intern at
                 <strong>
                   <a
-                    className="text-blue-500 mx-1"
+                    className="text-blue-500"
                     href="https://www.arm.com/"
                     target="_blank"
                   >
-                    Arm
+                    {' '}Arm
                   </a>
                 </strong>
               </div>
@@ -95,11 +95,11 @@ function Home() {
                 Building
                 <strong>
                   <a
-                    className="text-blue-500 mx-1"
+                    className="text-blue-500"
                     href="https://www.service101.com/"
                     target="_blank"
                   >
-                    Service101 🔧
+                    {' '}Service101 🔧
                   </a>
                 </strong>
               </div>
@@ -112,31 +112,31 @@ function Home() {
                 Spring/Insight Programmes at
                 <strong>
                   <a
-                    className="text-blue-500 ml-1"
+                    className="text-blue-500"
                     href="https://www.citadel.com/"
                     target="_blank"
                   >
-                    Citadel
+                    {' '}Citadel
                   </a>
                 </strong>
                 ,
                 <strong>
                   <a
-                    className="text-blue-500 ml-1"
+                    className="text-blue-500"
                     href="https://www.flowtraders.com/"
                     target="_blank"
                   >
-                    SIG
+                    {' '}SIG
                   </a>
                 </strong>
                 , and
                 <strong>
                   <a
-                    className="text-blue-500 m-1"
+                    className="text-blue-500"
                     href="https://www.mlp.com/"
                     target="_blank"
                   >
-                    Millennium
+                    {' '}Millennium
                   </a>
                 </strong>
               </div>
@@ -149,11 +149,11 @@ function Home() {
                 Ex-Software Engineer Intern at
                 <strong>
                   <a
-                    className="text-blue-500 mx-1"
+                    className="text-blue-500"
                     href="https://www.linkedin.com/company/prefessionalsltd/"
                     target="_blank"
                   >
-                    PreFessionals
+                  {' '}PreFessionals
                   </a>
                 </strong>
               </div>
