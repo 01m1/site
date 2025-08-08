@@ -90,23 +90,6 @@ function Home() {
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
               (Jun 2025 - Aug 2025)
             </strong>
-            <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
-              <div>
-                Building
-                <strong>
-                  <a
-                    className="text-blue-500"
-                    href="https://www.service101.com/"
-                    target="_blank"
-                  >
-                    {' '}Service101 🔧
-                  </a>
-                </strong>
-              </div>
-            </p>
-            <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
-              (Jan 2025 - Present)
-            </strong>
             <p className="text-[10px] pl-5 md:text-[12px] lg:text-xl items-center mt-5">
               <div>
                 Spring/Insight Programmes at
