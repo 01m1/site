@@ -71,7 +71,7 @@ function Home() {
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
               (Sep 2024 - Jun 2027)
             </strong>
-            <hr className="border-2 mb-5 mt-5 w-85 md:w-180 xl:w-180 text-gray-400"></hr>
+            <hr className="border-1 mb-5 mt-5 w-75 md:w-180 xl:w-180 text-gray-400"></hr>
             <h1 className="text-2xl">Experience</h1>
             <p className="pl-5 text-[10px] md:text-[12px] lg:text-xl flex items-center mt-5">
               <div>
@@ -144,7 +144,7 @@ function Home() {
             <strong className="text-gray-500 text-[10px] md:text-[12px] lg:text-[16px]">
               (Jul 2024 - Sep 2024)
             </strong>
-            <hr className="text-gray-400 border-2 mb-5 mt-8 w-85 md:w-180 xl:w-180"></hr>
+            <hr className="text-gray-400 border-1 mb-5 mt-8 w-75 md:w-180 xl:w-180"></hr>
             <h1 className="text-2xl mb-4">Programming Languages</h1>
             <p className="text-[12px] md:text-xl">
               Python • Java • C++ • C • SQL • JavaScript • TypeScript
